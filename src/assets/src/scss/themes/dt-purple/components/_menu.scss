@@ -1,0 +1,18 @@
+.menu:not(.menu--disclosure) ul li a:not(.sel):not(.disabled):hover, 
+.menu:not(.menu--disclosure):not(:hover) ul li a:not(.disabled).hover {
+    --text-color: var(--theme-primary-900);
+    --light-text-color: var(--theme-primary-900);
+    --ui-control-color: var(--theme-primary-900);
+    --ui-control-hover-color: var(--theme-primary-900);
+    --ui-control-active-color: var(--theme-primary-900);
+    background-color: var(--theme-primary-050);
+    color: var(--theme-primary-900);
+    cursor: pointer!important;
+}
+
+.menu--disclosure ul li>.menu-option:hover, 
+.menu--disclosure ul li>a:hover {
+    background-color: var(--theme-primary-050);
+    color: var(--theme-primary-900);
+    cursor: pointer!important;
+}

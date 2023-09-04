@@ -1,0 +1,7 @@
+.lightswitch{
+    &:not(.on){
+        background-image: linear-gradient(to right,var(--theme-gray-400),var(--theme-gray-400));
+    }
+    
+}
+    

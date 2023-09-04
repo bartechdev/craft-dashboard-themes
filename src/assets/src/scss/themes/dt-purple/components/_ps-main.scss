@@ -1,0 +1,14 @@
+.ps-main{
+    a{
+        &:not(.plugin-card){
+            color: var(--link-color)!important;
+        }
+        &:hover{
+            color: var(--link-color)!important;
+
+            strong{
+                color: var(--theme-info-600)!important;
+            }
+        }
+    }
+}

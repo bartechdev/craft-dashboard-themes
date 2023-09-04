@@ -1,0 +1,13 @@
+.redactor .redactor-box:not(.redactor-box-fullscreen):not(.redactor-source-view).redactor-focus {
+    border-color: var(--theme-light-300)!important;
+    box-shadow: $box-shadow;
+}
+
+.redactor-box .redactor-air a, .redactor-box .redactor-toolbar a {
+    background: var(--theme-light-300);
+    box-shadow: $box-shadow;
+
+    &:hover{
+        background: var(--theme-primary-500);
+    }
+}

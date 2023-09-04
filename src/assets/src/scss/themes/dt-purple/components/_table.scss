@@ -1,0 +1,59 @@
+.tableview {
+    table {
+        tbody tr {
+            &:not(.disabled){
+                &.active-drop-target,
+                &.sel,
+                td {
+                    --text-color: var(--text-color);
+                    --medium-dark-text-color: var(--theme-primary-900);
+                    --medium-text-color: var(--theme-primary-900);
+                    --light-text-color: var(--theme-primary-900);
+                    --link-color: var(--theme-info-500);
+                    --ui-control-color: var(--theme-primary-900);
+                    --focus-ring: 0 0 0 3px var(--theme-primary-900);
+                    color: var(--text-color) !important;
+                }
+            }
+        }
+
+        tbody tr {
+            --selected-bg-color: var(--theme-primary-050) !important;
+        }
+
+        &.data {
+            thead td,
+            thead th {
+                background-color: var(--theme-light-100);
+
+                &:hover{
+                    background-color: var(--theme-light-200)!important;
+                }
+            }
+        }
+
+        tr {
+            border-left: 3px solid transparent;
+        }
+
+        tr:not(.disabled).sel {
+            border-left: 3px solid var(--theme-primary-500);
+        }
+
+        thead + tbody tr td,
+        thead + tbody tr th,
+        tr + tr td,
+        tr + tr th {
+            border-top: 0;
+        }
+    }
+}
+
+table {
+    &.editable {
+        tbody tr td.disabled:after {
+            background-color: --theme-light-400 !important;
+            opacity: 0.4;
+        }
+    }
+}

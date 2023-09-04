@@ -1,0 +1,3 @@
+.pane-tabs [role=tablist] [role=tab]:not(.sel):hover {
+    background-color: var(--theme-light-100);
+}

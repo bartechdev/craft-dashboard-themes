@@ -1,0 +1,49 @@
+.btn {
+    background-color: var(--theme-light-100);
+    color: --theme-text-dark;
+    box-shadow: $box-shadow;
+
+    &:hover{
+        filter: brightness(97%);
+    }
+
+    &.secondary{
+        background-color: var(--theme-primary-500)!important;
+    }
+}
+
+.secondary-buttons .btn.submit {
+    background-color: var(--theme-primary-800)!important;
+    color: var(--theme-light-100)!important;
+
+    &:hover{
+        filter: brightness(105%)!important;
+        background-color: var(--theme-primary-800)!important;
+    }
+
+}
+
+
+//FORCE SUBMIT HOVER
+.btn.submit:not(.disabled):not(.inactive):not(.loading).hover, 
+.btn.submit:not(.disabled):not(.inactive):not(.loading):focus, 
+.btn.submit:not(.disabled):not(.inactive):not(.loading):hover {
+    filter: brightness(105%);
+    background-color: var(--theme-primary-800) !important;
+}
+
+.btn.secondary:not(.disabled):not(.inactive):not(.loading).hover, 
+.btn.secondary:not(.disabled):not(.inactive):not(.loading):focus, 
+.btn.secondary:not(.disabled):not(.inactive):not(.loading):hover{
+    filter: brightness(97%)!important;
+    background-color: var(--theme-primary-500)!important;
+}
+
+.chevron-btns .btn.active-drop-target, .chevron-btns .btn.current-step {
+    --text-color: var(--white);
+    --ui-control-color: var(--white);
+    --ui-control-bg-color: var(--gray-500);
+    --ui-control-hover-bg-color: var(--theme-primary-500);
+    --ui-control-active-bg-color: var(--theme-primary-500);
+    color: var(--white);
+}

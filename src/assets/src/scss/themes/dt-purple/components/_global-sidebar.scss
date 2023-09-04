@@ -1,0 +1,65 @@
+#global-sidebar {
+    background-image: linear-gradient(270deg, rgba(51, 148, 225, 0.18),transparent);
+    background-color: var(--theme-primary-850);
+
+    a {
+        color: var(--theme-light-100);
+    }
+
+    #system-info {
+        background-color: transparent !important;
+        color: var(--theme-light-100) !important;
+
+        &:focus,
+        &:hover {
+            background-color: rgba(0,0,0,.1) !important;
+        }
+    }
+
+    #nav {
+        
+        padding-left: 0;
+        padding-right: 0;
+
+        li {
+            a {
+                border-left: 3px solid transparent;
+                padding-top: 0.6rem;
+                padding-bottom: 0.6rem;
+                font-weight: 300;
+
+                .badge {
+                    background-color: var(--gray-400);
+                    color: var(--theme-light-100);
+                }
+            }
+
+            &:not(.has-subnav) > a.active-drop-target,
+            &:not(.has-subnav) > a.sel {
+                color: var(--theme-light-100);
+                font-weight: bold;
+                background-color: rgba(0,0,0,.1) !important;
+                color: var(--theme-light-100) !important;
+                border-radius: 0;
+                border-left: 3px solid var(--theme-primary-500);
+            }
+
+            &:not(.has-subnav) > a:not(.sel):hover {
+                background-color: rgba(0,0,0,.1) !important;
+                color: var(--theme-light-100);
+            }
+
+            a .icon.icon-mask {
+                span[data-icon] {
+                    color: var(--theme-light-100) !important;
+                }
+                svg {
+                    path,
+                    rect {
+                        fill: var(--theme-light-100) !important;
+                    }
+                }
+            }
+        }
+    }
+}

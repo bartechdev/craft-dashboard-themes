@@ -1,0 +1,82 @@
+@import "./variables.scss";
+
+body.dt-purple {
+    
+    @import "./components/trial-info";
+    @import "./components/table";
+    @import "./components/matrixblock";
+    @import "./components/btn";
+    @import "./components/sidebar";
+    @import "./components/global-sidebar";
+    @import "./components/icons";
+    @import "./components/plugins";
+    @import "./components/select";
+    @import "./components/footer";
+    @import "./components/details";
+    @import "./components/lightswitch";
+    @import "./components/checkmark-icon";
+    @import "./components/elementthumb";
+    @import "./components/meta";
+    @import "./components/nav-items";
+    @import "./components/menu";
+    @import "./components/site-icon";
+    @import "./components/dt-widget";
+    @import "./components/pane-tabs";
+    @import "./components/ps-main";
+    @import "./components/ps-sidebar";
+    @import "./components/c-spinner";
+    @import "./components/pane";
+    @import "./components/content-pane";
+    @import "./components/global-header";
+    @import "./components/autosuggest";
+
+    @import "./components/redactor/redactor";
+    
+
+    background-color: var(--theme-primary-050) !important;
+    color: var(--theme-text-dark) !important;
+
+    h1{
+        color: var(--theme-text-dark);
+    }
+
+    &.fixed-header #header {
+        backdrop-filter: blur(10px);
+        background-color: transparent;
+    }
+
+    :focus-visible,
+    :focus {
+        outline: $focus auto 1px;
+        outline-color: $focus;
+        outline-style: solid;
+        box-shadow: $box-shadow;
+    }
+
+    .reduce-focus-visibility :focus-visible {
+        box-shadow: $box-shadow;
+    }
+
+    &.reduce-focus-visibility .border-box:focus-visible,
+    &.reduce-focus-visibility .passwordwrapper:focus-visible,
+    &.reduce-focus-visibility .selectize.multiselect .selectize-input:focus-visible,
+    &.reduce-focus-visibility .text:focus-visible,
+    &:not(.reduce-focus-visibility) .border-box:focus,
+    &:not(.reduce-focus-visibility) .passwordwrapper:focus,
+    &:not(.reduce-focus-visibility) .selectize.multiselect.selectize-input:focus,
+    &:not(.reduce-focus-visibility) .text:focus {
+        box-shadow: $box-shadow;
+    }
+
+    .border-box, 
+    .matrix-configurator>.field>.input, 
+    .multiselect>select, .passwordwrapper, 
+    .selectize.multiselect .selectize-input, 
+    .text {
+        border-color: var(--theme-light-300)!important;
+    }
+
+    ::placeholder{
+        color: var(--theme-text-light)!important
+    }
+}

@@ -1,0 +1,9 @@
+.autosuggest__results-container .autosuggest__results-item.autosuggest__results-item--highlighted, .autosuggest__results-container .autosuggest__results-item:hover {
+    background-color: var(--theme-light-200);
+    color: var(--theme-primary-900)!important;
+    cursor: pointer;
+}
+
+.autosuggest__results-container .autosuggest__results-item.autosuggest__results-item--highlighted .light, .autosuggest__results-container .autosuggest__results-item:hover .light {
+    color: var(--theme-primary-900)!important;
+}

@@ -1,0 +1,26 @@
+select {
+    background-color: var(--theme-primary-050) !important;
+    box-shadow: $box-shadow !important;
+    outline-color: transparent;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.selectize.select .selectize-input {
+    background-color: var(--theme-primary-050) !important;
+    box-shadow: $box-shadow !important;
+}
+
+.selectize-dropdown {
+    .selected {
+        background-color: var(--theme-light-200)!important;
+        color: var(--theme-primary-900)!important;
+        cursor: default!important;
+    }
+    .active{
+        background-color: var(--theme-light-200)!important;
+        color: var(--theme-primary-900)!important;
+    }
+}

@@ -1,0 +1,14 @@
+<div id="js-dt-widget" class="dt-widget">
+	<div class="dt-widget__inner">
+		<div class="dt-widget__bg">
+			<img src="{{bgUrl}}">
+		</div>
+		
+		<div>
+			{{user.getThumbHtml(30)}}
+		</div>
+		<p class="dt-widget__heading">
+			{{'Hello'|t}}, {{user.name|truncate(30)}}
+		</p>
+	</div>
+</div>

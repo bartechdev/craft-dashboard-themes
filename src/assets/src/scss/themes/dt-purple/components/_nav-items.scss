@@ -1,0 +1,6 @@
+.nav-items ul li a {
+    &.router-link-exact-active,
+    &:hover {
+        background-color: var(--theme-light-300);
+    }
+}

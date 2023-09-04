@@ -1,0 +1,19 @@
+.details .meta>.data>.heading, 
+.details .meta>.data>.heading>label, 
+.details .meta>.field>.heading, 
+.details .meta>.field>.heading>label {
+    color: var(--theme-text-medium)!important;
+    font-weight: 700;
+}
+
+.details>.field>.heading>label, .details>fieldset>legend {
+    color: var(--theme-text-medium)!important;
+}
+
+#details .details > .field > .input > .text.fullwidth {
+    box-shadow: $box-shadow;
+}
+
+#details .details .meta:not(.read-only):not(.warning) {
+    box-shadow: $box-shadow;
+}

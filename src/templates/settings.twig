@@ -1,0 +1,11 @@
+{% import '_includes/forms.twig' as forms %}
+
+{{ forms.select({
+    id: "js-dt-theme",
+    name: "theme",
+    options: [
+        {label: 'Default'|t('app'), value: 'dt-default'},
+        {label: 'Purple'|t('app'), value: 'dt-purple'},
+    ],
+    value: settings.theme,
+}) }}

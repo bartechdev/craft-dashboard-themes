@@ -1,0 +1,121 @@
+$focus: transparent;
+
+$box-shadow: 0 0 13px 0 rgba(62, 44, 90, 0.08);
+
+:root {
+    --small-border-radius: 3px;
+    --medium-border-radius: 4px;
+    --large-border-radius: 0;
+
+    --link-color: var(--theme-info-500)!important;
+
+    --light-sel-color: var(--theme-light-200);  
+
+    --text-color: var(--theme-text-dark);
+    --medium-dark-text-color: var(--theme-text-dark);
+    --medium-text-color: var(--theme-text-light);
+    --light-text-color: var(--theme-text-light);
+
+    --primary-color: var(--theme-primary-900);
+
+    
+    --gray-050: var(--theme-primary-050);
+    --gray-100: var(--theme-primary-100);
+    --gray-200: var(--theme-primary-200);
+    --gray-300: var(--theme-primary-300);
+    --gray-350: var(--theme-primary-300); // EMPTY
+    --gray-400: var(--theme-primary-400);
+    --gray-500: var(--theme-primary-500);
+    --gray-550: var(--theme-primary-500);
+    --gray-600: var(--theme-primary-600);
+    --gray-700: var(--theme-primary-700);
+    --gray-800: var(--theme-primary-800);
+    --gray-900: var(--theme-primary-900); 
+    --gray-1000: var(--theme-primary-900); // EMPTY
+
+
+    --menu-option-active-color: var(--theme-primary-900);
+
+
+    --ui-control-color: var(--theme-text-dark);
+    --ui-control-hover-color: var(--theme-primary-900);
+    --ui-control-active-color: var(--theme-primary-900);
+    --ui-control-bg-color: var(--theme-primary-900);
+    --ui-control-hover-bg-color: var(--theme-primary-800);
+    --ui-control-active-bg-color: var(--theme-primary-800);
+
+    --error-color: var(--theme-red-500);
+    --warning-color: var(--theme-red-500);
+    --success-color: var(--theme-success-500);
+    --notice-color: var(--theme-info-500);
+    --enabled-color: var(--theme-success-500);
+    --pending-color: var(--theme-warning-500);
+    --disabled-color: var(--theme-red-500);
+    --indicator-border-color: var(--theme-warning-500);
+    --indicator-icon-color: var(--theme-warning-500);
+
+
+    --theme-primary-050: var(--theme-light-200);
+    --theme-primary-100: #beaed7;
+    --theme-primary-200: #b19dce;
+    --theme-primary-300: #a38cc6;
+    --theme-primary-400: #967bbd;
+    --theme-primary-500: #886ab5;
+    --theme-primary-600: #7a59ad;
+    --theme-primary-700: #6e4e9e;
+    --theme-primary-800: #62468d;
+    --theme-primary-850: #584477;
+    --theme-primary-900: #563d7c;
+
+
+    --theme-warning-100: #ffe3a7;
+    --theme-warning-200: #ffdb8e;
+    --theme-warning-300: #ffd274;
+    --theme-warning-400: #ffca5b;
+    --theme-warning-500: #ffc241;
+    --theme-warning-600: #ffba28;
+    --theme-warning-700: #ffb20e;
+    --theme-warning-800: #f4a500;
+    --theme-warning-900: #da9400;
+
+
+    --theme-success-50: #7aece0;
+    --theme-success-100: #63e9db;
+    --theme-success-200: #4de5d5;
+    --theme-success-300: #37e2d0;
+    --theme-success-400: #21dfcb;
+    --theme-success-500: #1dc9b7;
+    --theme-success-600: #1ab3a3;
+    --theme-success-700: #179c8e;
+    --theme-success-800: #13867a;
+    --theme-success-900: #107066;
+
+
+    --theme-info-50: #9acffa;
+    --theme-info-100: #82c4f8;
+    --theme-info-200: #6ab8f7;
+    --theme-info-300: #51adf6;
+    --theme-info-400: #39a1f4;
+    --theme-info-500: #2196F3;
+    --theme-info-600: #0d8aee;
+    --theme-info-700: #0c7cd5;
+    --theme-info-800: #0a6ebd;
+    --theme-info-900: #0960a5;
+
+
+    --theme-red-500: #fd3995;
+    
+
+
+    --theme-light-100: #fff;
+    --theme-light-200: #faf8fb;
+    --theme-light-300: #e7e2ea; 
+    --theme-light-400: #dfdae2; 
+
+    --theme-gray-400: #868e96;
+
+    --theme-text-light: var(--theme-gray-400);
+    --theme-text-medium: #495057;
+    --theme-text-dark: #505050;
+
+}
